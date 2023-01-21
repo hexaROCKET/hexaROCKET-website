@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://hexiga.ca"
+base_url = "https://hexarocket.github.io/hexaROCKET-website/"
 title = "hexaROCKET"
 description = "Amateur rocket built with a custom avionics system using embedded Rust"
 
