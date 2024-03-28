@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hexarocket.github.io/hexaROCKET-website//sitemap.xml

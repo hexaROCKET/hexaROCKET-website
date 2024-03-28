@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>hexaROCKET</title>
+    <subtitle>Amateur rocket built with a custom avionics system using embedded Rust</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://hexarocket.github.io/hexaROCKET-website/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-01-16T08:00:00+00:00</updated>
+    <id>https://hexarocket.github.io/hexaROCKET-website/atom.xml</id>
+    <entry xml:lang="en">
+        <title>CAD Model</title>
+        <published>2023-01-16T08:00:00+00:00</published>
+        <updated>2023-01-16T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/docs/airframe/cad-model/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/docs/airframe/cad-model/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/docs/airframe/cad-model/">&lt;h2 id=&quot;quick-start&quot;&gt;Quick Start&lt;&#x2F;h2&gt;
+&lt;p&gt;stuff...&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Overview</title>
+        <published>2023-01-16T08:00:00+00:00</published>
+        <updated>2023-01-16T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/docs/airframe/overview/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/docs/airframe/overview/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/docs/airframe/overview/">&lt;h2 id=&quot;quick-start&quot;&gt;Quick Start&lt;&#x2F;h2&gt;
+&lt;p&gt;stuff...&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Flight Data</title>
+        <published>2023-01-16T08:00:00+00:00</published>
+        <updated>2023-01-16T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/flight-data/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/docs/avionics/flight-data/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/flight-data/">&lt;h2 id=&quot;collection&quot;&gt;Collection&lt;&#x2F;h2&gt;
+&lt;p&gt;One page summary of how to start a new AdiDoks project. &lt;a href=&quot;..&#x2F;quick-start&#x2F;&quot;&gt;Quick Start →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;storage-hardware&quot;&gt;Storage Hardware&lt;&#x2F;h2&gt;
+&lt;p&gt;We have a lot of stuff...&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;stored-data-formatting&quot;&gt;Stored Data Formatting&lt;&#x2F;h2&gt;
+&lt;p&gt;stuff....&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;gathering-data-after-flight&quot;&gt;Gathering Data After Flight&lt;&#x2F;h2&gt;
+&lt;p&gt;stuff....&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Overview</title>
+        <published>2023-01-16T08:00:00+00:00</published>
+        <updated>2023-01-16T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/overview/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/docs/avionics/overview/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/overview/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h2&gt;
+&lt;p&gt;As mentioned in the &lt;a href=&quot;..&#x2F;..&#x2F;project_overview&#x2F;introduction&#x2F;&quot;&gt;project overview&lt;&#x2F;a&gt;, the main motivation of this 
+project is to learn. As such, the question is, what do we want to learn? Below is a list of tools that
+we would like to gain more experience with:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Embedded Rust, &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rust-embedded&#x2F;embedded-hal&quot;&gt;Hardware Abstraction Layer library&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Using the Rust Embedded HAL, we can very easily swap in and swap out PCB components, and we are
+less tied down to a specific micro-controller&#x2F;sensor&#x2F;component down the line. In short, the HAL 
+allows us more flexibility in the design and Rust enables us to write safe programs, nice programs, and doing so in a modern build system.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rust-embedded&#x2F;awesome-embedded-rust&quot;&gt;Awesome Embedded&lt;&#x2F;a&gt; can be used to &#x27;shop&#x27; 
+around and find interchangable components to add to our avionics system.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.kicad.org&#x2F;&quot;&gt;KiCad&lt;&#x2F;a&gt;, an open source schematic design program that enables us to design and
+layout our PCB with all of the avionic components.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;It may also be interesting to use a home CNC router to rapidly develop PCB boards. To convert our KiCad PCBs into a physical PCB, we will need to generate the G-code to run on the router. &lt;a href=&quot;https:&#x2F;&#x2F;www.freecad.org&#x2F;&quot;&gt;FreeCAD&lt;&#x2F;a&gt;
+Is the open source tool that can do this for us.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;So now we know what language we want to use, where we can find components that will work together in 
+our build, we have a means of developing a PCB layout, and a means of bringing that PCB into the physical
+world using exclusively &lt;strong&gt;open source&lt;&#x2F;strong&gt; tools. Using &lt;strong&gt;open source&lt;&#x2F;strong&gt; tools is one of the most important
+pillars of this build. We would like to avoid proprietary tools at all costs.&lt;&#x2F;p&gt;
+&lt;br&gt;
+&lt;h2 id=&quot;system-hardware&quot;&gt;System Hardware&lt;&#x2F;h2&gt;
+&lt;p&gt;The following design principles are what will guide our selection of hardware components:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Non-obsolete - Use modern components that are not considered end-of-life.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Widely adopted - Use components that will be easier to troubleshoot via search engines.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Low cost - Rather than use one component that &amp;quot;does it all&amp;quot;, prefer using multiple components
+that are a fraction of the cost.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;br&gt;
+&lt;p&gt;Following the design principles above, the following components have been considered:&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Component&lt;&#x2F;th&gt;&lt;th&gt;Name&lt;&#x2F;th&gt;&lt;th&gt;Bus Protocol&lt;&#x2F;th&gt;&lt;th&gt;Price&#x2F;unit&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Micro-controller&lt;&#x2F;td&gt;&lt;td&gt;RP2040&lt;&#x2F;td&gt;&lt;td&gt;n&#x2F;a&lt;&#x2F;td&gt;&lt;td&gt;$2.00&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Altimeter&lt;&#x2F;td&gt;&lt;td&gt;BME280&lt;&#x2F;td&gt;&lt;td&gt;SPI&lt;&#x2F;td&gt;&lt;td&gt;$10.47&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;IMU&lt;&#x2F;td&gt;&lt;td&gt;BNO055&lt;&#x2F;td&gt;&lt;td&gt;I2C&lt;&#x2F;td&gt;&lt;td&gt;$22.07&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GPS Module&lt;&#x2F;td&gt;&lt;td&gt;M20048-1&lt;&#x2F;td&gt;&lt;td&gt;UART&lt;&#x2F;td&gt;&lt;td&gt;$23.76&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Tx&#x2F;Rx&lt;&#x2F;td&gt;&lt;td&gt;SX1280&lt;&#x2F;td&gt;&lt;td&gt;SPI&lt;&#x2F;td&gt;&lt;td&gt;$9.07&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;EEPROM&lt;&#x2F;td&gt;&lt;td&gt;24LC256&lt;&#x2F;td&gt;&lt;td&gt;I2C&lt;&#x2F;td&gt;&lt;td&gt;$1.74&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;total GPIO pins needed: 4 + 2 + 4 + 4 + 2 = 16&lt;&#x2F;p&gt;
+&lt;p&gt;These components were not choosen at random. Below is the rationale for each component:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Micro-controller - Raspberry Pi RP2040
+&lt;ul&gt;
+&lt;li&gt;Excellent documentation in the HAL library&lt;&#x2F;li&gt;
+&lt;li&gt;The price is right (~$4)&lt;&#x2F;li&gt;
+&lt;li&gt;Many GPIO pins available to use.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;br&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;Altimeter - Bosch BME280
+&lt;ul&gt;
+&lt;li&gt;HAL driver available&lt;&#x2F;li&gt;
+&lt;li&gt;Not obsolete&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;br&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;IMU (Inertial Measurement Unit) - Bosch BNO055
+&lt;ul&gt;
+&lt;li&gt;HAL driver available&lt;&#x2F;li&gt;
+&lt;li&gt;Not obsolete&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;br&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;GPS Module - Antenova M20048-1
+&lt;ul&gt;
+&lt;li&gt;Provides a standardized output (no driver available)&lt;&#x2F;li&gt;
+&lt;li&gt;Integrated Antenna&lt;&#x2F;li&gt;
+&lt;li&gt;Low cost&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;br&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;Tx&#x2F;Rx (LoRaWAN Module) - Semtech SX1280
+&lt;ul&gt;
+&lt;li&gt;HAL Driver Available&lt;&#x2F;li&gt;
+&lt;li&gt;Low Cost&lt;&#x2F;li&gt;
+&lt;li&gt;(-) Gotta use an external antenna&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;br&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;EEPROM - 24LC256
+&lt;ul&gt;
+&lt;li&gt;Fairly standard component&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;system-software&quot;&gt;System Software&lt;&#x2F;h2&gt;
+&lt;p&gt;The Hardware Abstraction Library is going to be the very powerful glue that puts the
+entire avionics system together. As such, below are some resources on our toolchain:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rust-embedded&#x2F;embedded-hal&quot;&gt;Rust HAL library&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;rp-rs&#x2F;rp-hal&quot;&gt;RP2040 HAL library&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>PCB Design</title>
+        <published>2023-01-16T08:00:00+00:00</published>
+        <updated>2023-01-16T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/pcb-design/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/docs/avionics/pcb-design/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/pcb-design/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h2&gt;
+&lt;p&gt;pcb stuff...&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Program States</title>
+        <published>2023-01-16T08:00:00+00:00</published>
+        <updated>2023-01-16T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/program-states/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/docs/avionics/program-states/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/program-states/">&lt;h2 id=&quot;what-are-program-states&quot;&gt;What are Program States?&lt;&#x2F;h2&gt;
+&lt;p&gt;The activity of launching a rocket is an almost perfect use case for a &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Finite-state_machine#Usage&quot;&gt;state machine&lt;&#x2F;a&gt; conceptualization. The launch of a single stage, solid rocket has well
+defined and discrete steps, so it is easy to break the execution of code into states. For example, you do
+not expect the rocket to after it has reached apogee and is begining its decent (unless you had a 
+re-ignitable and throttlable rocket to use for landing... which this project does not). So you ensure that
+no code related to the ignition of the rocket motor is allowed to execute while the rocket is in the 
+&#x27;decent&#x27; stage. At the same time, you do not want the parachute to deploy while the rocket is resting
+on the ground.&lt;&#x2F;p&gt;
+&lt;p&gt;Even more paramount than the examples mentioned above, is the fact that we &lt;strong&gt;DO NOT&lt;&#x2F;strong&gt; want to initiate the
+propulsion system unless we &lt;strong&gt;explicitly&lt;&#x2F;strong&gt; ask it to. And even then, we want to use 
+mechanical&#x2F;electrical&#x2F;software &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Interlock_(engineering)&quot;&gt;interlocks&lt;&#x2F;a&gt; to 
+ensure that the launch sequence will only initiate under a certain state and under certain conditions.
+These states and conditions are described below.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;program-states-list&quot;&gt;Program States List&lt;&#x2F;h2&gt;
+&lt;p&gt;The avionics system can be in the following states:&lt;&#x2F;p&gt;
+&lt;p&gt;Off, Disabled - There is no power going to any of the rocket systems. Avionics battery is removed or
+disconnected.&lt;&#x2F;p&gt;
+&lt;p&gt;Off, Connected - There is no power going to any of the rocket systems, but the battery is in place or
+connected.&lt;&#x2F;p&gt;
+&lt;p&gt;On, Dormant - The rocket is powered on. Sensors powered on, but the micro-controller is not storing
+any data. Telemetry is not enabled in this state, no outgoing signals. The rocket is looking for 
+incoming signals from the ground station (or debug pins?) instructing it to move on to the next state,
+or return to the Off, Connected state. Only these two state signals are accepted at this time.&lt;&#x2F;p&gt;
+&lt;p&gt;On, Tx&#x2F;Rx - The rocket is powered on, sensors powered on, telemetry is active. Some data &lt;em&gt;may&lt;&#x2F;em&gt; be 
+stored on the eeprom(s). Calibration and initialization is normally done while in this state. The checks 
+are done to verify that the rocket is in a condition that it is &lt;em&gt;eligible&lt;&#x2F;em&gt; to enter into a &lt;strong&gt;live&lt;&#x2F;strong&gt; state.&lt;&#x2F;p&gt;
+&lt;p&gt;On, &lt;strong&gt;live&lt;&#x2F;strong&gt; (grounded) - The rocket is powered on, the Remove-Before-Flight pin has been removed, the sleep
+timeout has ended, no abort signal has been sent, and the state flag indicates the rocket is ready
+to enter into a &lt;strong&gt;live&lt;&#x2F;strong&gt; state. Once in this state, sensors are running, data is stored as set out in the
+initialization setup, and telemetry is transmitted.&lt;&#x2F;p&gt;
+&lt;p&gt;On, In-Flight (upwards) - After a signal is sent to the propulsion system and sensors confirm that the
+rocket is  moving, the electrical and software interlocks ensure that no more signals can be sent to the
+propulsion system. Now, the micro-controller is rapidly trying to store all flight data, transmit all 
+flight data, and perform computations to check if flight apogee has been reached, which would bump the
+rocket into the next state.&lt;&#x2F;p&gt;
+&lt;p&gt;On, In-Flight (downwards) - This is a brief state. All that happens is that a certain amount of time 
+passes and the parachute deploys. Once a chute deployment attempt is made (if it is successful or not) the
+rocket is bumped to the next state&lt;&#x2F;p&gt;
+&lt;p&gt;On, In-Flight (under canopy) - The under canopy bit is assumed, since there is nothing we can do if it 
+isn&#x27;t at this point. The rocket will now prioritize sending GPS coordinates via telemetry over all other
+sensor and flight data to help ground crews recover the rocket. &lt;&#x2F;p&gt;
+&lt;p&gt;On, Post-Flight (landed, immobile) - This state is purely for semantics, it changes very little from the
+previous state. The rocket will stay in this state until the RBF-pin is replaced in the rocket housing,
+or the avionics battery runs low, where the avionics system will eventually shut down. When the RBF-pin 
+is placed back in the rocket, it returns to the &lt;code&gt;On, Tx&#x2F;Rx&lt;&#x2F;code&gt; state.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;propulsion-activation-interlock&quot;&gt;Propulsion Activation Interlock&lt;&#x2F;h2&gt;
+&lt;p&gt;Since a lot of energy is released in a violent manor when a rocket motor&#x2F;engine is fired, we want
+to ensure it is only done at a specific time. We also want to use several independent mechanisms to
+ensure an accidental firing does not occur. This includes the following mechanisms:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Remove-Before-Flight Pin - while the pin is inserted, the rocket is not allowed to be fired. The pin
+can be pulled from a safe distance using a long pull-cord. The removal of the pin changes the rocket into 
+a &lt;strong&gt;live&lt;&#x2F;strong&gt; state, and a buzzer on the PCB will start to emit a tone. This will alert any person near to 
+the rocket that it has become live and if they can hear it, they are probably not a safe distance away. &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Software - The primary source of software lockout is the fact that the state machine requires the 
+rocket be in a specific state before any ignition code is executed. Secondary to that, if the RBF-pin is
+pulled, no code (of any kind) will be allowed to be executed for at least 2 minutes. This allows any 
+nearby persons to vacate the area, or for someone to reinsert the pin if it was unintentsionallly 
+removed.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Electrical - Since ultimately it will be an electrical pulse sent to the propulsion system that 
+ignites the motor, care must be taken to ensure that no short circuits can occur, PCB designs must 
+ensure lines running to the propulsion system are isolated, and edge case tests should be conducted
+to anticipate any faults in the electrical wiring from the avionics PCB to the propulsion system. 
+Additionally, a tri-input AND gate can be used, as shown below, to ensure that an output to the 
+propulsion system is only sent if (i) the RBF-pin is removed, (ii) The micro-controller program is
+in the &lt;strong&gt;live&lt;&#x2F;strong&gt; state as determined by a flag pin output, and (iii) It has been at least 2 minutes 
+since the RBF-pin has been removed as determiend by another flag pin.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;(insert AND block diagram here.)&lt;&#x2F;p&gt;
+&lt;p&gt;Note that many software checks using the sensor data and telemetry will be done before the program
+enters the &lt;strong&gt;live&lt;&#x2F;strong&gt; state. These include ensuring that the rocket is not moving and allowing an 
+abort signal to be sent at any time, which will disengage any state flags set and prevent the
+state flag from being set during the timeout period.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Sensors</title>
+        <published>2023-01-16T08:00:00+00:00</published>
+        <updated>2023-01-16T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/sensors/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/docs/avionics/sensors/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/sensors/">&lt;h2 id=&quot;sensor-list&quot;&gt;Sensor List&lt;&#x2F;h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Component&lt;&#x2F;th&gt;&lt;th&gt;Name&lt;&#x2F;th&gt;&lt;th&gt;Bus Protocol&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Altimeter&lt;&#x2F;td&gt;&lt;td&gt;BME280&lt;&#x2F;td&gt;&lt;td&gt;SPI&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;IMU&lt;&#x2F;td&gt;&lt;td&gt;BNO055&lt;&#x2F;td&gt;&lt;td&gt;I2C&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;GPS Module&lt;&#x2F;td&gt;&lt;td&gt;M20048-1&lt;&#x2F;td&gt;&lt;td&gt;UART&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;altimeter&quot;&gt;Altimeter&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;..&#x2F;bme280.pdf&#x2F;&quot;&gt;Datasheet&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Although the sensor datasheet does not say that the BME280 is an altimeter, it collects all the pertinent 
+information to get &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Pressure_altitude&quot;&gt;pressure altitude&lt;&#x2F;a&gt;, which we will be
+using to confirm if we have met our 3,000 metre altitude goal. We can either use the NOAA formula to 
+directly convert from atmospheric pressure to altitude. However, this formula assumes a 
+&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Standard_temperature_and_pressure&quot;&gt;standard temperature&lt;&#x2F;a&gt;. If we know the
+actual temperature at the altitude we are flying at, we can also use the 
+&lt;a href=&quot;https:&#x2F;&#x2F;keisan.casio.com&#x2F;exec&#x2F;system&#x2F;1224585971&quot;&gt;Hypsometric Equation&lt;&#x2F;a&gt; to determine the altitude above 
+sea level.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;crash-course-how-an-altimeter-works&quot;&gt;Crash Course: How an Altimeter Works&lt;&#x2F;h3&gt;
+&lt;p&gt;stuff...&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;bme280-operational-overview&quot;&gt;BME280: Operational Overview&lt;&#x2F;h3&gt;
+&lt;p&gt;The BME280 will be connected to the RP2040 via an SPI bus. The simplest way to get the required 
+measurements is to use the &lt;a href=&quot;https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;bme280&quot;&gt;bme280 driver crate&lt;&#x2F;a&gt;. However, the 
+measurement function provides the temperature, humidity and pressure values as floating point 
+numbers. The problem is that the RP2040 does not have an 
+&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Floating-point_unit&quot;&gt;FPU&lt;&#x2F;a&gt;, so there may become issues down the 
+line where the float computations are taking up too much of the RP2040 CPUs clock cycles. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;inertial-measurement-unit&quot;&gt;Inertial Measurement Unit&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;..&#x2F;bno055.pdf&#x2F;&quot;&gt;Datasheet&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The IMU is not strictly necessary to meet the &lt;a href=&quot;..&#x2F;..&#x2F;project_overview&#x2F;goals&#x2F;&quot;&gt;goals&lt;&#x2F;a&gt; of 
+this project. However, the IMU provides valuable engineering insights that are useful for
+determining the performance of the propulsion system and iterating on the design of the 
+airframe.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;crash-course-how-an-imu-works&quot;&gt;Crash Course: How an IMU Works&lt;&#x2F;h3&gt;
+&lt;p&gt;stuff...&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;bno055-operational-overview&quot;&gt;BNO055: Operational Overview&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;crates.io&#x2F;crates&#x2F;bno055&quot;&gt;bno055 driver crate&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Quaternion&quot;&gt;quaternion&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;gps-module&quot;&gt;GPS Module&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;..&#x2F;m20048-1.pdf&#x2F;&quot;&gt;Datasheet&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The GPS module is critical for recovering the rocket after the flight. It can also be used to back
+up the claims made by the altimeter sensor.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;crash-course-how-gps-works&quot;&gt;Crash Course: How GPS Works&lt;&#x2F;h3&gt;
+&lt;p&gt;stuff...&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;m20048-1-operational-overview&quot;&gt;M20048-1: Operational Overview&lt;&#x2F;h3&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Setup Toolchain</title>
+        <published>2023-01-16T08:00:00+00:00</published>
+        <updated>2023-01-16T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/setup/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/docs/avionics/setup/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/setup/">&lt;h2 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;&#x2F;h2&gt;
+&lt;p&gt;Given that we have decided to use the Rust programming language, we should probably 
+&lt;a href=&quot;https:&#x2F;&#x2F;www.rust-lang.org&#x2F;tools&#x2F;install&quot;&gt;install rust&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;With rust installed, we will need to include the rp-2040 HAL crate in our &lt;code&gt;cargo.toml&lt;&#x2F;code&gt; file:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;rp2040-hal &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;0.7.0&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Additionally, we will need drivers for each of our hardware components outlined above:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;toml&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-toml &quot;&gt;&lt;code class=&quot;language-toml&quot; data-lang=&quot;toml&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;stuff &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;0.1.0&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;stuff &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;0.1.0&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;stuff &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;0.1.0&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;stuff &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;0.1.0&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;stuff &lt;&#x2F;span&gt;&lt;span&gt;= &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;0.1.0&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;It&#x27;s this simplicity shown above that outlines the massive benefit the embedded rust HAL 
+toolchain provides.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Telemetry</title>
+        <published>2023-01-16T08:00:00+00:00</published>
+        <updated>2023-01-16T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/telemetry/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/docs/avionics/telemetry/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/telemetry/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h2&gt;
+&lt;p&gt;One page summary of how to start a new AdiDoks project. &lt;a href=&quot;..&#x2F;quick-start&#x2F;&quot;&gt;Quick Start →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;communication-protocol&quot;&gt;Communication Protocol&lt;&#x2F;h2&gt;
+&lt;p&gt;We have a lot of stuff...&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;on-board-hardware&quot;&gt;On-board Hardware&lt;&#x2F;h2&gt;
+&lt;p&gt;stuff....&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ground-station-hardware&quot;&gt;Ground Station Hardware&lt;&#x2F;h2&gt;
+&lt;p&gt;stuff....&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;on-board-software&quot;&gt;On-board Software&lt;&#x2F;h2&gt;
+&lt;p&gt;stuff....&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;ground-station-software&quot;&gt;Ground Station Software&lt;&#x2F;h2&gt;
+&lt;p&gt;stuff....&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Project Goals</title>
+        <published>2023-01-16T08:00:00+00:00</published>
+        <updated>2023-01-16T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/docs/project_overview/goals/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/docs/project_overview/goals/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/docs/project_overview/goals/">&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;The hexaROCKET project has the following goal(s)&lt;&#x2F;strong&gt; [as of January 2023]:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Launch a rocket that can reach an altitude of 3,000 meters&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;br&gt;
+&lt;p&gt;Although the project goals can be completed in many ways, successful execution of the following steps would constitute a successful mission:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Setup a launch apparatus to guide the rocket toward the sky (and not the ground)&lt;&#x2F;li&gt;
+&lt;li&gt;Ignite the rocket motor (safely)&lt;&#x2F;li&gt;
+&lt;li&gt;Record 
+&lt;ul&gt;
+&lt;li&gt;minimally: altimeter data&lt;&#x2F;li&gt;
+&lt;li&gt;optimally: all in-flight sensor data&lt;&#x2F;li&gt;
+&lt;li&gt;additionally: real-time in-flight telemetry transmission, recieving, and displaying system preferred &lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;After reaching maximum altitude and on downward descent, deploy a parachute to protect the rocket from sudden and violent impact with the earth&lt;&#x2F;li&gt;
+&lt;li&gt;Transmit a recovery signal so that the rocket may be found more easily&lt;&#x2F;li&gt;
+&lt;li&gt;Recover recorded flight data from the hardware storage after flight.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Each of the above steps must be successfully executed in order for the overall project to be considered a success&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Project Overview</title>
+        <published>2023-01-16T08:00:00+00:00</published>
+        <updated>2023-01-16T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/docs/project_overview/introduction/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/docs/project_overview/introduction/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/docs/project_overview/introduction/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h2&gt;
+&lt;p&gt;The &lt;a href=&quot;..&#x2F;goals&#x2F;&quot;&gt;goal&lt;&#x2F;a&gt; of this project is to develop a rocket that can reach 3,000 metres of altitude.
+To accomplish this task several systems need to be developed, including:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;..&#x2F;..&#x2F;avionics&#x2F;overview&#x2F;&quot;&gt;Avionics&lt;&#x2F;a&gt; - The computer software and hardware that will control the rocket throughout its flight&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;..&#x2F;..&#x2F;airframe&#x2F;overview&#x2F;&quot;&gt;Airframe&lt;&#x2F;a&gt; - The structure of the rocket&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;..&#x2F;..&#x2F;propulsion&#x2F;overview&#x2F;&quot;&gt;Propulsion&lt;&#x2F;a&gt; - The system that will get the rocket moving.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;These systems are continually being developed, as discussed in our project &lt;a href=&quot;..&#x2F;roadmap&#x2F;&quot;&gt;roadmap&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;motivation&quot;&gt;Motivation&lt;&#x2F;h2&gt;
+&lt;p&gt;This is a student&#x2F;hobby project. As such the main motivating factor is to learn. Avionics will be the initial focus, as 
+collecting flight data successfully is essential for iterating and improving on other aspects of the overall project.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;license&quot;&gt;License&lt;&#x2F;h2&gt;
+&lt;p&gt;all software, hardware schematics, and design documents are free, open source, and permissively licensed. Most repositories related to the project are dual-licensed under either:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;MIT License &lt;&#x2F;li&gt;
+&lt;li&gt;Apache 2.0 License&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Note that not all tools and libraries used by the project use these licenses, so care must be taken to ensure upstream copyright holders are respected. In terms of our dual-licensed works, you may choose whichever license suits your need.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;warning&quot;&gt;Warning&lt;&#x2F;h2&gt;
+&lt;p&gt;This project is not professional grade by any means, and all those who derive from this project&#x27;s works accept any and all risks. &lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Overview</title>
+        <published>2023-01-16T08:00:00+00:00</published>
+        <updated>2023-01-16T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/docs/propulsion/overview/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/docs/propulsion/overview/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/docs/propulsion/overview/">&lt;h2 id=&quot;quick-start&quot;&gt;Quick Start&lt;&#x2F;h2&gt;
+&lt;p&gt;stuff...&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Casey</title>
+        <published>2023-01-14T08:00:00+00:00</published>
+        <updated>2023-01-14T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/authors/casey/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/authors/casey/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/authors/casey/">&lt;p&gt;Creator of &lt;strong&gt;hexaCAD&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;casey-SK&quot;&gt;@casey-SK&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>FAQ</title>
+        <published>2021-05-01T19:30:00+00:00</published>
+        <updated>2021-05-01T19:30:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/docs/help/faq/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/docs/help/faq/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/docs/help/faq/">&lt;h2 id=&quot;what-is-the-adidoks&quot;&gt;What is the AdiDoks?&lt;&#x2F;h2&gt;
+&lt;p&gt;AdiDoks is a Zola theme for Documentation&#x27;s sites, ported by the Hugo Theme
+&lt;a href=&quot;https:&#x2F;&#x2F;getdoks.org&quot;&gt;Doks&lt;&#x2F;a&gt;, which is a pretty nice theme. Thanks a lot to 
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;h-enk&quot;&gt;&lt;em&gt;h-enk&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;, the creator of the &lt;a href=&quot;https:&#x2F;&#x2F;getdoks.org&quot;&gt;Doks&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;keyboard-shortcuts-for-search&quot;&gt;Keyboard shortcuts for search?&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;focus: &lt;code&gt;&#x2F;&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;select: &lt;code&gt;↓&lt;&#x2F;code&gt; and &lt;code&gt;↑&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;open: &lt;code&gt;Enter&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;close: &lt;code&gt;Esc&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;other-documentation&quot;&gt;Other documentation?&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.netlify.com&#x2F;&quot;&gt;Netlify&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;getting-started&#x2F;overview&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;contact-the-creator&quot;&gt;Contact the creator?&lt;&#x2F;h2&gt;
+&lt;p&gt;Send &lt;em&gt;Aaran Xu&lt;&#x2F;em&gt; an E-mail:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;mailto:aaranxu@outlook.com&quot;&gt;aaranxu@outlook.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Code of Conduct</title>
+        <published>2021-05-01T18:20:00+00:00</published>
+        <updated>2021-05-01T18:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/docs/contributing/code-of-conduct/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/docs/contributing/code-of-conduct/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/docs/contributing/code-of-conduct/">&lt;h2 id=&quot;our-pledge&quot;&gt;Our Pledge&lt;&#x2F;h2&gt;
+&lt;p&gt;We as members, contributors, and leaders pledge to make participation in our
+community a harassment-free experience for everyone, regardless of age, body
+size, visible or invisible disability, ethnicity, sex characteristics, gender
+identity and expression, level of experience, education, socio-economic status,
+nationality, personal appearance, race, caste, color, religion, or sexual identity
+and orientation.&lt;&#x2F;p&gt;
+&lt;p&gt;We pledge to act and interact in ways that contribute to an open, welcoming,
+diverse, inclusive, and healthy community.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;our-standards&quot;&gt;Our Standards&lt;&#x2F;h2&gt;
+&lt;p&gt;Examples of behavior that contributes to a positive environment for our
+community include:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Demonstrating empathy and kindness toward other people&lt;&#x2F;li&gt;
+&lt;li&gt;Being respectful of differing opinions, viewpoints, and experiences&lt;&#x2F;li&gt;
+&lt;li&gt;Giving and gracefully accepting constructive feedback&lt;&#x2F;li&gt;
+&lt;li&gt;Accepting responsibility and apologizing to those affected by our mistakes,
+and learning from the experience&lt;&#x2F;li&gt;
+&lt;li&gt;Focusing on what is best not just for us as individuals, but for the
+overall community&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Examples of unacceptable behavior include:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The use of sexualized language or imagery, and sexual attention or
+advances of any kind&lt;&#x2F;li&gt;
+&lt;li&gt;Trolling, insulting or derogatory comments, and personal or political attacks&lt;&#x2F;li&gt;
+&lt;li&gt;Public or private harassment&lt;&#x2F;li&gt;
+&lt;li&gt;Publishing others&#x27; private information, such as a physical or email
+address, without their explicit permission&lt;&#x2F;li&gt;
+&lt;li&gt;Other conduct which could reasonably be considered inappropriate in a
+professional setting&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;enforcement-responsibilities&quot;&gt;Enforcement Responsibilities&lt;&#x2F;h2&gt;
+&lt;p&gt;Community leaders are responsible for clarifying and enforcing our standards of
+acceptable behavior and will take appropriate and fair corrective action in
+response to any behavior that they deem inappropriate, threatening, offensive,
+or harmful.&lt;&#x2F;p&gt;
+&lt;p&gt;Community leaders have the right and responsibility to remove, edit, or reject
+comments, commits, code, wiki edits, issues, and other contributions that are
+not aligned to this Code of Conduct, and will communicate reasons for moderation
+decisions when appropriate.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;scope&quot;&gt;Scope&lt;&#x2F;h2&gt;
+&lt;p&gt;This Code of Conduct applies within all community spaces, and also applies when
+an individual is officially representing the community in public spaces.
+Examples of representing our community include using an official e-mail address,
+posting via an official social media account, or acting as an appointed
+representative at an online or offline event.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;enforcement&quot;&gt;Enforcement&lt;&#x2F;h2&gt;
+&lt;p&gt;Instances of abusive, harassing, or otherwise unacceptable behavior may be
+reported to the community leaders responsible for enforcement at
+&lt;a href=&quot;mailto:aaranxu@outlook.com&quot;&gt;aaranxu@outlook.com&lt;&#x2F;a&gt;.
+All complaints will be reviewed and investigated promptly and fairly.&lt;&#x2F;p&gt;
+&lt;p&gt;All community leaders are obligated to respect the privacy and security of the
+reporter of any incident.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;enforcement-guidelines&quot;&gt;Enforcement Guidelines&lt;&#x2F;h2&gt;
+&lt;p&gt;Community leaders will follow these Community Impact Guidelines in determining
+the consequences for any action they deem in violation of this Code of Conduct:&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;1-correction&quot;&gt;1. Correction&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Community Impact&lt;&#x2F;strong&gt;: Use of inappropriate language or other behavior deemed
+unprofessional or unwelcome in the community.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Consequence&lt;&#x2F;strong&gt;: A private, written warning from community leaders, providing
+clarity around the nature of the violation and an explanation of why the
+behavior was inappropriate. A public apology may be requested.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;2-warning&quot;&gt;2. Warning&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Community Impact&lt;&#x2F;strong&gt;: A violation through a single incident or series
+of actions.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Consequence&lt;&#x2F;strong&gt;: A warning with consequences for continued behavior. No
+interaction with the people involved, including unsolicited interaction with
+those enforcing the Code of Conduct, for a specified period of time. This
+includes avoiding interactions in community spaces as well as external channels
+like social media. Violating these terms may lead to a temporary or
+permanent ban.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;3-temporary-ban&quot;&gt;3. Temporary Ban&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Community Impact&lt;&#x2F;strong&gt;: A serious violation of community standards, including
+sustained inappropriate behavior.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Consequence&lt;&#x2F;strong&gt;: A temporary ban from any sort of interaction or public
+communication with the community for a specified period of time. No public or
+private interaction with the people involved, including unsolicited interaction
+with those enforcing the Code of Conduct, is allowed during this period.
+Violating these terms may lead to a permanent ban.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;4-permanent-ban&quot;&gt;4. Permanent Ban&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;Community Impact&lt;&#x2F;strong&gt;: Demonstrating a pattern of violation of community
+standards, including sustained inappropriate behavior,  harassment of an
+individual, or aggression toward or disparagement of classes of individuals.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Consequence&lt;&#x2F;strong&gt;: A permanent ban from any sort of public interaction within
+the community.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;attribution&quot;&gt;Attribution&lt;&#x2F;h2&gt;
+&lt;p&gt;This Code of Conduct is adapted from the &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&quot;&gt;Contributor Covenant&lt;&#x2F;a&gt;,
+version 2.0, available at
+&lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;version&#x2F;2&#x2F;0&#x2F;code_of_conduct.html&quot;&gt;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;version&#x2F;2&#x2F;0&#x2F;code_of_conduct.html&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Community Impact Guidelines were inspired by 
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mozilla&#x2F;diversity&quot;&gt;Mozilla&#x27;s code of conduct enforcement ladder&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;For answers to common questions about this code of conduct, see the FAQ at
+&lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;faq&quot;&gt;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;faq&lt;&#x2F;a&gt;. Translations are available 
+at &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;translations&quot;&gt;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;translations&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>How to Contribute</title>
+        <published>2021-05-01T18:10:00+00:00</published>
+        <updated>2021-05-01T18:10:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/docs/contributing/how-to-contribute/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/docs/contributing/how-to-contribute/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/docs/contributing/how-to-contribute/">&lt;p&gt;👉 Make sure to read the &lt;a href=&quot;..&#x2F;code-of-conduct&#x2F;&quot;&gt;Code of Conduct&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;contribute-to-doks&quot;&gt;Contribute to Doks&lt;&#x2F;h2&gt;
+&lt;p&gt;👉 The AdiDoks code lives in the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;aaranxu&#x2F;adidoks&quot;&gt;&lt;code&gt;adidoks&lt;&#x2F;code&gt; repository&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Follow the &lt;a href=&quot;https:&#x2F;&#x2F;guides.github.com&#x2F;introduction&#x2F;flow&#x2F;&quot;&gt;GitHub flow&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Follow the &lt;a href=&quot;https:&#x2F;&#x2F;www.conventionalcommits.org&#x2F;en&#x2F;v1.0.0&#x2F;&quot;&gt;Conventional Commits Specification&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;create-an-issue&quot;&gt;Create an issue&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;aaranxu&#x2F;adidoks&#x2F;issues&#x2F;new?template=bug-report---.md&quot;&gt;Bug report&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;aaranxu&#x2F;adidoks&#x2F;issues&#x2F;new?template=feature-request---.md&quot;&gt;Feature request&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;improve-documentation&quot;&gt;Improve documentation&lt;&#x2F;h2&gt;
+&lt;p&gt;👉 The documentation lives in &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;aaranxu&#x2F;adidoks&#x2F;tree&#x2F;master&#x2F;content&#x2F;docs&quot;&gt;&lt;code&gt;.&#x2F;content&#x2F;docs&#x2F;&lt;&#x2F;code&gt;&lt;&#x2F;a&gt;
+of the &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;h-enk&#x2F;getdoks.org&quot;&gt;&lt;code&gt;adidoks&lt;&#x2F;code&gt; repository&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Follow the &lt;a href=&quot;https:&#x2F;&#x2F;guides.github.com&#x2F;introduction&#x2F;flow&#x2F;&quot;&gt;GitHub flow&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Follow the &lt;a href=&quot;https:&#x2F;&#x2F;www.conventionalcommits.org&#x2F;en&#x2F;v1.0.0&#x2F;&quot;&gt;Conventional Commits Specification&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Hello World</title>
+        <published>2021-05-01T09:19:42+00:00</published>
+        <updated>2021-05-01T09:19:42+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/blog/hello-world/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/blog/hello-world/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/blog/hello-world/">&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; This is a comment, and is ignored by the compiler
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; This is the main function
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Statements here are executed when the compiled binary is called
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; Print text to the console
+&lt;&#x2F;span&gt;&lt;span&gt;    println!(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Hello World!&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;);
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;code&gt;println!&lt;&#x2F;code&gt; is a macro that prints text to the console.&lt;&#x2F;p&gt;
+&lt;p&gt;A binary can be generated using the Rust compiler: &lt;code&gt;rustc&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span&gt; rustc hello.rs
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;code&gt;rustc&lt;&#x2F;code&gt; will produce a &lt;code&gt;hello&lt;&#x2F;code&gt; binary that can be executed.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;$&lt;&#x2F;span&gt;&lt;span&gt; .&#x2F;hello
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;Hello&lt;&#x2F;span&gt;&lt;span&gt; World!
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Project Roadmap and Milestones</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/docs/project_overview/roadmap/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/docs/project_overview/roadmap/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/docs/project_overview/roadmap/">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h2&gt;
+&lt;p&gt;One page summary of how to start a new AdiDoks project. &lt;a href=&quot;..&#x2F;quick-start&#x2F;&quot;&gt;Quick Start →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;roadmap&quot;&gt;Roadmap&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Develop Design Outline for the proposed sensors, controllers, etc. for the Avionics PCB.&lt;&#x2F;li&gt;
+&lt;li&gt;Determine Program States for a solid propellant, single stage rocket.&lt;&#x2F;li&gt;
+&lt;li&gt;Develop data storage protocol.&lt;&#x2F;li&gt;
+&lt;li&gt;Design PCB layout and connections for all avionics components, taking into consideration
+the communication protocols used for each embedded component.&lt;&#x2F;li&gt;
+&lt;li&gt;Develop test suite layout for all avionic software (we are not a fast-and-loose development group).&lt;&#x2F;li&gt;
+&lt;li&gt;Rough out software functions and modules. Only module names, function names&#x2F;parameters&#x2F;returns&#x2F;errors 
+at this point.&lt;&#x2F;li&gt;
+&lt;li&gt;Perform unit tests on all embedded hardware components.&lt;&#x2F;li&gt;
+&lt;li&gt;Implement data storage system using altimeter data as first test sensor, implement all other sensor data
+after altimeter data is properly collected&#x2F;stored&#x2F;retrieved using the EEPROM (no telemetry at this point).&lt;&#x2F;li&gt;
+&lt;li&gt;Choose and test telemetry system using basic, non-avionic-system data&lt;&#x2F;li&gt;
+&lt;li&gt;Develop ground station, including data input, storage, and live display.&lt;&#x2F;li&gt;
+&lt;li&gt;Completed telemetry build-out for all program states.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Notice that we are at 10 steps so far, and we haven&#x27;t even begun to build the rocket.&lt;&#x2F;p&gt;
+&lt;ol start=&quot;11&quot;&gt;
+&lt;li&gt;Establish a list of possible rocket motors or propellants that are candidates for our 3,000 metre
+altitude target.&lt;&#x2F;li&gt;
+&lt;li&gt;Estimate the compressive (or other) forces that our airframe will need to withstand for the given 
+short-list of propulsion systems.&lt;&#x2F;li&gt;
+&lt;li&gt;Propose materials and constructions methods that will withstand the anticipated forces.&lt;&#x2F;li&gt;
+&lt;li&gt;Build a scale model rocket to test the complete avionics package at low altitudes.&lt;&#x2F;li&gt;
+&lt;li&gt;Launch and recover scale model rocket. Iterate systems as needed. Critically, ensure that 
+mechanical&#x2F;electrical&#x2F;software lockouts work as expected.&lt;&#x2F;li&gt;
+&lt;li&gt;Build scaled version of propulsion system and perform bench tests. Iterate as needed.&lt;&#x2F;li&gt;
+&lt;li&gt;Build full sized rocket airframe using trial-and-error methods.&lt;&#x2F;li&gt;
+&lt;li&gt;Build full sized propulsion system and perform bench test. Iterate as needed.&lt;&#x2F;li&gt;
+&lt;li&gt;Replicate full sized propulsion system for final build.&lt;&#x2F;li&gt;
+&lt;li&gt;Build launch tower assembly.&lt;&#x2F;li&gt;
+&lt;li&gt;Assemble all final rocket components.&lt;&#x2F;li&gt;
+&lt;li&gt;Attempt to launch rocket to 3,000 metres.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;milestones&quot;&gt;Milestones&lt;&#x2F;h2&gt;
+&lt;p&gt;The project can be broken up into the following phases (delineated by major milestones):&lt;&#x2F;p&gt;
+&lt;p&gt;A. Avionics, without telemetry&lt;&#x2F;p&gt;
+&lt;p&gt;B. Avionics, with telemetry and ground station&lt;&#x2F;p&gt;
+&lt;p&gt;C. Scale model launch completed&lt;&#x2F;p&gt;
+&lt;p&gt;D. Scale model propulsion bench test completed&lt;&#x2F;p&gt;
+&lt;p&gt;E. Full sized airframe completed&lt;&#x2F;p&gt;
+&lt;p&gt;F. Full integration of all systems&lt;&#x2F;p&gt;
+&lt;p&gt;G. First test flight of all full sized systems completed&lt;&#x2F;p&gt;
+&lt;p&gt;H. 3,000 metres altitude reached with full recovery&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Markdown Syntax Guide</title>
+        <published>2021-04-20T09:19:42+00:00</published>
+        <updated>2021-04-20T09:19:42+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/blog/markdown-syntax/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/blog/markdown-syntax/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/blog/markdown-syntax/">&lt;h2 id=&quot;headings&quot;&gt;Headings&lt;&#x2F;h2&gt;
+&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;&#x2F;code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;&#x2F;code&gt; elements represent six levels of section
+headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;&#x2F;code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;&#x2F;code&gt; is the lowest.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;h1&quot;&gt;H1&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;h2&quot;&gt;H2&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;h3&quot;&gt;H3&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;h4&quot;&gt;H4&lt;&#x2F;h4&gt;
+&lt;h5 id=&quot;h5&quot;&gt;H5&lt;&#x2F;h5&gt;
+&lt;h6 id=&quot;h6&quot;&gt;H6&lt;&#x2F;h6&gt;
+&lt;h2 id=&quot;paragraph&quot;&gt;Paragraph&lt;&#x2F;h2&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum,
+voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma
+dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as
+cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin
+porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur?
+Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit
+ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda
+veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore
+eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata
+tiustia prat.&lt;&#x2F;p&gt;
+&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne
+sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;&#x2F;h2&gt;
+&lt;p&gt;The blockquote element represents content that is quoted from another source,
+optionally with a citation which must be within a &lt;code&gt;footer&lt;&#x2F;code&gt; or &lt;code&gt;cite&lt;&#x2F;code&gt; element,
+and optionally with in-line changes such as annotations and abbreviations.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;blockquote-without-attribution&quot;&gt;Blockquote without attribution&lt;&#x2F;h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong&gt;Note&lt;&#x2F;strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;&#x2F;em&gt; within a blockquote.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h4 id=&quot;blockquote-with-attribution&quot;&gt;Blockquote with attribution&lt;&#x2F;h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&#x27;t communicate by sharing memory, share memory by communicating.&lt;br&gt;
+— &lt;cite&gt;Rob Pike&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;&lt;&#x2F;cite&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All men by nature desire to know.&lt;br&gt;
+― &lt;cite&gt;Aristotle&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#2&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;&lt;&#x2F;cite&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;&#x2F;h2&gt;
+&lt;p&gt;Tables aren&#x27;t part of the core Markdown spec, but Zola supports them
+out-of-the-box.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Name&lt;&#x2F;th&gt;&lt;th&gt;Age&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Bob&lt;&#x2F;td&gt;&lt;td&gt;27&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Alice&lt;&#x2F;td&gt;&lt;td&gt;23&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h4 id=&quot;inline-markdown-within-tables&quot;&gt;Inline Markdown within tables&lt;&#x2F;h4&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Italics&lt;&#x2F;th&gt;&lt;th&gt;Bold&lt;&#x2F;th&gt;&lt;th&gt;Code&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;em&gt;italics&lt;&#x2F;em&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;strong&gt;bold&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;code&gt;code&lt;&#x2F;code&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h2 id=&quot;code-blocks&quot;&gt;Code Blocks&lt;&#x2F;h2&gt;
+&lt;h4 id=&quot;code-block-with-backticks&quot;&gt;Code block with backticks&lt;&#x2F;h4&gt;
+&lt;pre data-lang=&quot;html&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-html &quot;&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&amp;lt;!doctype html&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;html &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;lang&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;en&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;head&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;meta &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;charset&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;utf-8&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;Example HTML5 Document&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;head&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;body&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;Test&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;body&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;html&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h4 id=&quot;code-block-indented-with-four-spaces&quot;&gt;Code block indented with four spaces&lt;&#x2F;h4&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;&amp;lt;!doctype html&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;head&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;&#x2F;title&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;head&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;body&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;lt;p&amp;gt;Test&amp;lt;&#x2F;p&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;body&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;html&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;&#x2F;h2&gt;
+&lt;h4 id=&quot;ordered-list&quot;&gt;Ordered List&lt;&#x2F;h4&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;&#x2F;li&gt;
+&lt;li&gt;Second item&lt;&#x2F;li&gt;
+&lt;li&gt;Third item&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h4 id=&quot;unordered-list&quot;&gt;Unordered List&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;List item&lt;&#x2F;li&gt;
+&lt;li&gt;Another item&lt;&#x2F;li&gt;
+&lt;li&gt;And another item&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;nested-list&quot;&gt;Nested list&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fruit
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;&#x2F;li&gt;
+&lt;li&gt;Orange&lt;&#x2F;li&gt;
+&lt;li&gt;Banana&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Dairy
+&lt;ul&gt;
+&lt;li&gt;Milk&lt;&#x2F;li&gt;
+&lt;li&gt;Cheese&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;other-elements-abbr-sub-sup-kbd-mark&quot;&gt;Other Elements — abbr, sub, sup, kbd, mark&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;abbr title=&quot;Graphics Interchange Format&quot;&gt;GIF&lt;&#x2F;abbr&gt; is a bitmap image format.&lt;&#x2F;p&gt;
+&lt;p&gt;H&lt;sub&gt;2&lt;&#x2F;sub&gt;O&lt;&#x2F;p&gt;
+&lt;p&gt;X&lt;sup&gt;n&lt;&#x2F;sup&gt; + Y&lt;sup&gt;n&lt;&#x2F;sup&gt; = Z&lt;sup&gt;n&lt;&#x2F;sup&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Press &lt;kbd&gt;&lt;kbd&gt;CTRL&lt;&#x2F;kbd&gt;+&lt;kbd&gt;ALT&lt;&#x2F;kbd&gt;+&lt;kbd&gt;Delete&lt;&#x2F;kbd&gt;&lt;&#x2F;kbd&gt; to end the
+session.&lt;&#x2F;p&gt;
+&lt;p&gt;Most &lt;mark&gt;salamanders&lt;&#x2F;mark&gt; are nocturnal, and hunt for insects, worms, and
+other small creatures.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;!-- Note: There must be a blank line between every two lines of the footnote difinition.  --&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=PAAkCSZUG1c&quot;&gt;talk&lt;&#x2F;a&gt;
+during Gopherfest, November 18, 2015.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;2&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;2&lt;&#x2F;sup&gt;
+&lt;p&gt;The quote is the first sentence of Aristotle&#x27;s &lt;a href=&quot;http:&#x2F;&#x2F;classics.mit.edu&#x2F;Aristotle&#x2F;metaphysics.html&quot;&gt;Metaphysics&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Placeholder Text</title>
+        <published>2021-04-10T09:19:42+00:00</published>
+        <updated>2021-04-10T09:19:42+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/blog/placeholder-text/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/blog/placeholder-text/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/blog/placeholder-text/">&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo. &lt;!--more--&gt;Redit
+teque digerit hominumque toris verebor lumina non cervice subde tollit usus
+habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus
+inhospita parcite confusaque translucet patri vestro qui optatis lumine
+cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Exierant elisi ambit vivere dedere&lt;&#x2F;li&gt;
+&lt;li&gt;Duce pollice&lt;&#x2F;li&gt;
+&lt;li&gt;Eris modo&lt;&#x2F;li&gt;
+&lt;li&gt;Spargitque ferrea quos palude&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus
+silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Comas hunc haec pietate fetum procerum dixit&lt;&#x2F;li&gt;
+&lt;li&gt;Post torum vates letum Tiresia&lt;&#x2F;li&gt;
+&lt;li&gt;Flumen querellas&lt;&#x2F;li&gt;
+&lt;li&gt;Arcanaque montibus omnes&lt;&#x2F;li&gt;
+&lt;li&gt;Quidem et&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h1 id=&quot;vagus-elidunt&quot;&gt;Vagus elidunt&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;svg class=&quot;canon&quot; xmlns=&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot; overflow=&quot;visible&quot; viewBox=&quot;0 0 496 373&quot; height=&quot;373&quot; width=&quot;496&quot;&gt;&lt;g fill=&quot;none&quot;&gt;&lt;path stroke=&quot;#000&quot; stroke-width=&quot;.75&quot; d=&quot;M.599 372.348L495.263 1.206M.312.633l494.95 370.853M.312 372.633L247.643.92M248.502.92l246.76 370.566M330.828 123.869V1.134M330.396 1.134L165.104 124.515&quot;&gt;&lt;&#x2F;path&gt;&lt;path stroke=&quot;#ED1C24&quot; stroke-width=&quot;.75&quot; d=&quot;M275.73 41.616h166.224v249.05H275.73zM54.478 41.616h166.225v249.052H54.478z&quot;&gt;&lt;&#x2F;path&gt;&lt;path stroke=&quot;#000&quot; stroke-width=&quot;.75&quot; d=&quot;M.479.375h495v372h-495zM247.979.875v372&quot;&gt;&lt;&#x2F;path&gt;&lt;ellipse cx=&quot;498.729&quot; cy=&quot;177.625&quot; rx=&quot;.75&quot; ry=&quot;1.25&quot;&gt;&lt;&#x2F;ellipse&gt;&lt;ellipse cx=&quot;247.229&quot; cy=&quot;377.375&quot; rx=&quot;.75&quot; ry=&quot;1.25&quot;&gt;&lt;&#x2F;ellipse&gt;&lt;&#x2F;g&gt;&lt;&#x2F;svg&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Canons_of_page_construction#Van_de_Graaf_canon&quot;&gt;The Van de Graaf Canon&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;mane-refeci-capiebant-unda-mulcebat&quot;&gt;Mane refeci capiebant unda mulcebat&lt;&#x2F;h2&gt;
+&lt;p&gt;Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit
+colit est profanae esse virescere furit nec; iaculi matertera et visa est,
+viribus. Divesque creatis, tecta novat collumque vulnus est, parvas.
+&lt;strong&gt;Faces illo pepulere&lt;&#x2F;strong&gt; tempus adest. Tendit flamma, ab opes virum sustinet,
+sidus sequendo urbis.&lt;&#x2F;p&gt;
+&lt;p&gt;Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli
+Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare
+Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert
+ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae
+vulnus haerentia iuste et exercebat, sui et.&lt;&#x2F;p&gt;
+&lt;p&gt;Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit
+sequitur. Vel &lt;strong&gt;mitis temploque&lt;&#x2F;strong&gt; vocatus, inque alis, &lt;em&gt;oculos nomen&lt;&#x2F;em&gt; non silvis
+corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti
+flumina mortis facto sic: undique a alios vincula sunt iactata abdita!
+Suspenderat ego fuit tendit: luna, ante urbem Propoetides &lt;strong&gt;parte&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;style&gt;
+.canon { background: white; width: 100%; height: auto; }
+&lt;&#x2F;style&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Math Typesetting</title>
+        <published>2021-04-08T09:19:42+00:00</published>
+        <updated>2021-04-08T09:19:42+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/blog/math-typesetting/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/blog/math-typesetting/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/blog/math-typesetting/">&lt;p&gt;In this example we will be using &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;&quot;&gt;KaTeX&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a macro under &lt;code&gt;&#x2F;template&#x2F;macros&#x2F;math.html&lt;&#x2F;code&gt; with a macro named &lt;code&gt;math&lt;&#x2F;code&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Within this macro reference the &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;docs&#x2F;autorender.html&quot;&gt;Auto-render Extension&lt;&#x2F;a&gt; or host these scripts locally.&lt;&#x2F;li&gt;
+&lt;li&gt;Import the macro in your templates like so:&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span&gt;% import &amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;macros&#x2F;math.html&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39; as macros %}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span&gt;% if page.extra.math or section.extra.math or config.extra.math %}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;{{&lt;&#x2F;span&gt;&lt;span&gt; macros::math() }}
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span&gt;% endif %}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;ul&gt;
+&lt;li&gt;To enable KaTex globally set the parameter &lt;code&gt;extra.math&lt;&#x2F;code&gt; to &lt;code&gt;true&lt;&#x2F;code&gt; in a project&#x27;s configuration&lt;&#x2F;li&gt;
+&lt;li&gt;To enable KaTex on a per page basis include the parameter &lt;code&gt;extra.math = true&lt;&#x2F;code&gt; in content files&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;&#x2F;strong&gt; &lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;The MathJax library is the other optional choice, and you can set the parameter &lt;code&gt;extra.library&lt;&#x2F;code&gt; to &lt;code&gt;mathjax&lt;&#x2F;code&gt; in a project&#x27;s configuration&lt;&#x2F;li&gt;
+&lt;li&gt;Use the online reference of &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;docs&#x2F;supported.html&quot;&gt;Supported TeX Functions&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;examples&quot;&gt;Examples&lt;&#x2F;h3&gt;
+&lt;p&gt;
+Inline math: \(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…\) 
+&lt;&#x2F;p&gt;
+&lt;p&gt;Block math:
+$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
+$$&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Say hello to AdiDoks 👋</title>
+        <published>2021-04-03T07:00:00+00:00</published>
+        <updated>2021-04-03T07:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://hexarocket.github.io/hexaROCKET-website/blog/say-hello-to-zola-doks/"/>
+        <id>https://hexarocket.github.io/hexaROCKET-website/blog/say-hello-to-zola-doks/</id>
+        
+        <content type="html" xml:base="https://hexarocket.github.io/hexaROCKET-website/blog/say-hello-to-zola-doks/"></content>
+        
+    </entry>
+</feed>

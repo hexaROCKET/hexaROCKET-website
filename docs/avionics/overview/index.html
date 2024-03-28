@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="preload" as="font" href="https://hexarocket.github.io/hexaROCKET-website/fonts/fira/fira-sans-v10-latin-regular.woff" type="font/woff2" crossorigin>
+  <link rel="preload" as="font" href="https://hexarocket.github.io/hexaROCKET-website/fonts/fira/fira-sans-v10-latin-regular.woff2"  type="font/woff2" crossorigin>
+
+
+<link rel="stylesheet" href="https://hexarocket.github.io/hexaROCKET-website/main.css">
+
+
+
+  
+  
+    
+  
+
+  
+  
+    
+    
+  
+  
+  
+    
+  
+  
+  
+  
+    
+  
+  
+  
+
+
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+
+	
+
+
+	
+
+<title>Overview | hexaROCKET</title>
+<meta name="description" content="An overview of the Avionics System.">
+<link rel="canonical" href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/overview/">
+
+
+  
+  <meta property="og:title" content="Overview">
+  <meta property="og:description" content="An overview of the Avionics System.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/overview/">
+
+  
+    <meta property="og:image" content="https://hexarocket.github.io/hexaROCKET-website//doks.png">
+  
+
+  <meta property="og:updated_time" content="2023-01-16T08:00:00+00:00">
+  <meta property="og:site_name" content="Overview">
+
+  
+
+  
+
+  
+  <meta property="og:locale" content="en_US">
+
+
+
+
+
+  
+
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://hexarocket.github.io/hexaROCKET-website/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "Docs",
+            "item": "https://hexarocket.github.io/hexaROCKET-website/docs/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "Avionics",
+            "item": "https://hexarocket.github.io/hexaROCKET-website/docs/avionics/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  4 ,
+            "name": "Overview",
+            "item": "https://hexarocket.github.io/hexaROCKET-website/docs/avionics/overview/"
+          },
+        
+      
+    
+  }
+</script>
+
+
+
+
+
+
+  <meta name="theme-color" content="#fff">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://hexarocket.github.io/hexaROCKET-website/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://hexarocket.github.io/hexaROCKET-website/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://hexarocket.github.io/hexaROCKET-website/favicon-16x16.png">
+  
+    <link rel="manifest" href="https://hexarocket.github.io/hexaROCKET-website/site.webmanifest" crossorigin>
+  
+
+
+  
+
+</head>
+
+  
+
+<body class="docs single">
+  
+  
+  
+  
+<div class="header-bar fixed-top"></div>
+<header class="navbar fixed-top navbar-expand-md navbar-light">
+	<div class="container">
+		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
+		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<a class="navbar-brand order-1 order-md-0 me-auto" href="https://hexarocket.github.io/hexaROCKET-website/">hexaROCKET</a>
+		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
+			<span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
+			<span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
+		</button>
+		<ul class="navbar-nav fork-me order-3 order-md-5">
+			
+				
+					<li class="nav-item">
+						<a class="nav-link" href="https://github.com/casey-SK"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><span class="ms-2 visually-hidden">GitHub</span></a>
+					</li>
+				
+			
+		</ul>
+		<div class="collapse navbar-collapse order-4 order-md-1">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+				
+					
+				
+				
+				
+					
+						<li class="nav-item docs active">
+							<a class="nav-link" href="https://hexarocket.github.io/hexaROCKET-website/docs/project_overview/introduction/">Docs</a>
+						</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="https://hexarocket.github.io/hexaROCKET-website/blog/">Blog</a>
+						</li>
+					
+				
+			</ul>
+			<div class="break order-6 d-md-none"></div>
+			
+				<form class="navbar-form flex-grow-1 order-7 order-md-3">
+					<input id="userinput" class="form-control is-search" type="search" placeholder="Search docs..."
+						aria-label="Search docs..." autocomplete="off">
+					<div id="suggestions" class="shadow bg-white rounded"></div>
+				</form>
+			
+		</div>
+	</div>
+</header>
+
+
+
+  
+<div class="wrap container" role="document">
+  <div class="content">
+    <div class="row flex-xl-nowrap">
+	  
+<div class="col-lg-5 col-xl-4 docs-sidebar">
+	<nav class="docs-links" aria-label="Main navigation">
+			
+			
+			
+			
+					
+					
+					
+							<h3>Project Overview</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://hexarocket.github.io/hexaROCKET-website/docs/project_overview/introduction/">Project Overview</a></li>
+							                           
+									<li><a class="docs-link" href="https://hexarocket.github.io/hexaROCKET-website/docs/project_overview/goals/">Project Goals</a></li>
+							                           
+									<li><a class="docs-link" href="https://hexarocket.github.io/hexaROCKET-website/docs/project_overview/roadmap/">Project Roadmap and Milestones</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Avionics System</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link active" href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/overview/">Overview</a></li>
+							                           
+									<li><a class="docs-link" href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/setup/">Setup Toolchain</a></li>
+							                           
+									<li><a class="docs-link" href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/program-states/">Program States</a></li>
+							                           
+									<li><a class="docs-link" href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/sensors/">Sensors</a></li>
+							                           
+									<li><a class="docs-link" href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/pcb-design/">PCB Design</a></li>
+							                           
+									<li><a class="docs-link" href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/telemetry/">Telemetry</a></li>
+							                           
+									<li><a class="docs-link" href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/flight-data/">Flight Data</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Airframe</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://hexarocket.github.io/hexaROCKET-website/docs/airframe/overview/">Overview</a></li>
+							                           
+									<li><a class="docs-link" href="https://hexarocket.github.io/hexaROCKET-website/docs/airframe/cad-model/">CAD Model</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Propulsion System</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://hexarocket.github.io/hexaROCKET-website/docs/propulsion/overview/">Overview</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Contributing</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://hexarocket.github.io/hexaROCKET-website/docs/contributing/code-of-conduct/">Code of Conduct</a></li>
+							                           
+									<li><a class="docs-link" href="https://hexarocket.github.io/hexaROCKET-website/docs/contributing/how-to-contribute/">How to Contribute</a></li>
+							
+					</ul>
+					
+					
+					
+					
+							<h3>Help</h3>
+							<ul class="list-unstyled">
+							                           
+									<li><a class="docs-link" href="https://hexarocket.github.io/hexaROCKET-website/docs/help/faq/">FAQ</a></li>
+							
+					</ul>
+					
+					
+			
+	</nav>
+</div>
+
+	  
+  
+  <nav class="docs-toc d-none d-xl-block col-xl-3" aria-label="Secondary navigation">
+  	<div class="page-links">
+  			<h3>On this page</h3>
+  			<nav id="TableOfContents">
+  					<ul>
+  							
+  							<li><a href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/overview/#introduction">Introduction</a></li>
+  							
+  							
+  							<li><a href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/overview/#system-hardware">System Hardware</a></li>
+  							
+  							
+  							<li><a href="https://hexarocket.github.io/hexaROCKET-website/docs/avionics/overview/#system-software">System Software</a></li>
+  							
+  							
+  					</ul>
+  			</nav>
+  	</div>
+  </nav>
+  
+
+      <main class="docs-content col-lg-11 col-xl-9">
+        <h1>Overview</h1>
+        <p class="lead">An overview of the Avionics System.</p>
+        <h2 id="introduction">Introduction</h2>
+<p>As mentioned in the <a href="../../project_overview/introduction/">project overview</a>, the main motivation of this 
+project is to learn. As such, the question is, what do we want to learn? Below is a list of tools that
+we would like to gain more experience with:</p>
+<ol>
+<li>
+<p>Embedded Rust, <a href="https://github.com/rust-embedded/embedded-hal">Hardware Abstraction Layer library</a></p>
+<ul>
+<li>Using the Rust Embedded HAL, we can very easily swap in and swap out PCB components, and we are
+less tied down to a specific micro-controller/sensor/component down the line. In short, the HAL 
+allows us more flexibility in the design and Rust enables us to write safe programs, nice programs, and doing so in a modern build system.</li>
+<li><a href="https://github.com/rust-embedded/awesome-embedded-rust">Awesome Embedded</a> can be used to 'shop' 
+around and find interchangable components to add to our avionics system.</li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.kicad.org/">KiCad</a>, an open source schematic design program that enables us to design and
+layout our PCB with all of the avionic components.</p>
+</li>
+<li>
+<p>It may also be interesting to use a home CNC router to rapidly develop PCB boards. To convert our KiCad PCBs into a physical PCB, we will need to generate the G-code to run on the router. <a href="https://www.freecad.org/">FreeCAD</a>
+Is the open source tool that can do this for us.</p>
+</li>
+</ol>
+<p>So now we know what language we want to use, where we can find components that will work together in 
+our build, we have a means of developing a PCB layout, and a means of bringing that PCB into the physical
+world using exclusively <strong>open source</strong> tools. Using <strong>open source</strong> tools is one of the most important
+pillars of this build. We would like to avoid proprietary tools at all costs.</p>
+<br>
+<h2 id="system-hardware">System Hardware</h2>
+<p>The following design principles are what will guide our selection of hardware components:</p>
+<ol>
+<li>
+<p>Non-obsolete - Use modern components that are not considered end-of-life.</p>
+</li>
+<li>
+<p>Widely adopted - Use components that will be easier to troubleshoot via search engines.</p>
+</li>
+<li>
+<p>Low cost - Rather than use one component that &quot;does it all&quot;, prefer using multiple components
+that are a fraction of the cost.</p>
+</li>
+</ol>
+<br>
+<p>Following the design principles above, the following components have been considered:</p>
+<table><thead><tr><th>Component</th><th>Name</th><th>Bus Protocol</th><th>Price/unit</th></tr></thead><tbody>
+<tr><td>Micro-controller</td><td>RP2040</td><td>n/a</td><td>$2.00</td></tr>
+<tr><td>Altimeter</td><td>BME280</td><td>SPI</td><td>$10.47</td></tr>
+<tr><td>IMU</td><td>BNO055</td><td>I2C</td><td>$22.07</td></tr>
+<tr><td>GPS Module</td><td>M20048-1</td><td>UART</td><td>$23.76</td></tr>
+<tr><td>Tx/Rx</td><td>SX1280</td><td>SPI</td><td>$9.07</td></tr>
+<tr><td>EEPROM</td><td>24LC256</td><td>I2C</td><td>$1.74</td></tr>
+</tbody></table>
+<p>total GPIO pins needed: 4 + 2 + 4 + 4 + 2 = 16</p>
+<p>These components were not choosen at random. Below is the rationale for each component:</p>
+<ol>
+<li>Micro-controller - Raspberry Pi RP2040
+<ul>
+<li>Excellent documentation in the HAL library</li>
+<li>The price is right (~$4)</li>
+<li>Many GPIO pins available to use.</li>
+</ul>
+</li>
+</ol>
+<br>
+<ol start="2">
+<li>Altimeter - Bosch BME280
+<ul>
+<li>HAL driver available</li>
+<li>Not obsolete</li>
+</ul>
+</li>
+</ol>
+<br>
+<ol start="3">
+<li>IMU (Inertial Measurement Unit) - Bosch BNO055
+<ul>
+<li>HAL driver available</li>
+<li>Not obsolete</li>
+</ul>
+</li>
+</ol>
+<br>
+<ol start="4">
+<li>GPS Module - Antenova M20048-1
+<ul>
+<li>Provides a standardized output (no driver available)</li>
+<li>Integrated Antenna</li>
+<li>Low cost</li>
+</ul>
+</li>
+</ol>
+<br>
+<ol start="5">
+<li>Tx/Rx (LoRaWAN Module) - Semtech SX1280
+<ul>
+<li>HAL Driver Available</li>
+<li>Low Cost</li>
+<li>(-) Gotta use an external antenna</li>
+</ul>
+</li>
+</ol>
+<br>
+<ol start="6">
+<li>EEPROM - 24LC256
+<ul>
+<li>Fairly standard component</li>
+</ul>
+</li>
+</ol>
+<h2 id="system-software">System Software</h2>
+<p>The Hardware Abstraction Library is going to be the very powerful glue that puts the
+entire avionics system together. As such, below are some resources on our toolchain:</p>
+<ul>
+<li><a href="https://github.com/rust-embedded/embedded-hal">Rust HAL library</a></li>
+<li><a href="https://github.com/rp-rs/rp-hal">RP2040 HAL library</a></li>
+</ul>
+
+        
+        
+<div class="docs-navigation d-flex justify-content-between">
+  
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+        
+      
+        
+        
+          
+            
+              
+              <a href="https:&#x2F;&#x2F;hexarocket.github.io&#x2F;hexaROCKET-website&#x2F;docs&#x2F;project_overview&#x2F;roadmap&#x2F;">
+                <div class="card my-1">
+                  <div class="card-body py-2">
+                    &larr; Project Roadmap and Milestones
+                  </div>
+                </div>
+              </a>
+            
+            
+            
+          
+        
+      
+    
+  
+
+  
+  
+  
+  
+  
+    <a class="ms-auto" href="https:&#x2F;&#x2F;hexarocket.github.io&#x2F;hexaROCKET-website&#x2F;docs&#x2F;avionics&#x2F;setup&#x2F;">
+      <div class="card my-1">
+        <div class="card-body py-2">
+          Setup Toolchain &rarr;
+        </div>
+      </div>
+    </a>
+  
+</div>
+
+      </main>
+    </div>
+  </div>
+</div>
+
+
+  
+    
+<footer class="footer text-muted">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 order-last order-lg-first">
+				<ul class="list-inline">
+					
+						<li class="list-inline-item"> </li>
+					
+				</ul>
+			</div>
+			<div class="col-lg-8 order-first order-lg-last text-lg-end">
+				<ul class="list-inline">
+					
+						
+							<li class="list-inline-item"><a href="https://hexarocket.github.io/hexaROCKET-website/privacy-policy/">Privacy</a></li>
+						
+							<li class="list-inline-item"><a href="https://hexarocket.github.io/hexaROCKET-website/docs/contributing/code-of-conduct/">Code of Conduct</a></li>
+						
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+  
+
+  
+<script type="text/javascript" src="https://hexarocket.github.io/hexaROCKET-website/js/main.js" defer></script>
+
+  <script type="text/javascript" src="https://hexarocket.github.io/hexaROCKET-website/plugins/elasticlunr.min.js" defer></script>
+  <script type="text/javascript" src="https://hexarocket.github.io/hexaROCKET-website/search_index.en.js" defer></script>
+  <script type="text/javascript" src="https://hexarocket.github.io/hexaROCKET-website/js/search.js" defer></script>
+
+  
+</body>
+</html>
